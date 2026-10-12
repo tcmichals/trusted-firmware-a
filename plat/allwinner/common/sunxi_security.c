@@ -46,6 +46,7 @@ void sunxi_security_setup(void)
 	mmio_write_32(SUNXI_R_SPC_BASE + 0x04, 0xffffffff);
 	mmio_write_32(SUNXI_R_SPC_BASE + 0x14, 0xffffffff);
 	mmio_write_32(SUNXI_R_SPC_BASE + 0x24, 0xffffffff);
+	mmio_write_32(SUNXI_R_SPC_BASE + 0x34, 0xffffffff);
 
 	mmio_write_32(SUNXI_DSP_PRCM_BASE + 8, 7);
 }
